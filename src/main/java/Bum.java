@@ -11,11 +11,11 @@ public class Bum {
 
     private int days;
 
-    private String transport="Босой 🦵";
+    private String transport = "Босой 🦵";
 
-    private String home="Нет ❌🏠❌";
+    private String home = "Нет ❌🏠❌";
 
-    private String education="Поитовец ❌🧠❌";
+    private String education = "Поитовец ❌🧠❌";
 
     public void setEducation(String education) {
         this.education = education;
@@ -69,14 +69,24 @@ public class Bum {
 
     private int food;
 
-    public Bum(int health, int respect, int money, int bottles, int days, int pleasure,int food) {
+    private boolean maried;
+
+    public boolean isMaried() {
+        return maried;
+    }
+
+    public void setMaried(boolean maried) {
+        this.maried = maried;
+    }
+
+    public Bum(int health, int respect, int money, int bottles, int days, int pleasure, int food) {
         this.health = health;
         this.respect = respect;
         this.money = money;
         this.bottles = bottles;
         this.days = days;
         this.pleasure = pleasure;
-        this.food=food;
+        this.food = food;
     }
 
     public void setName(String name) {

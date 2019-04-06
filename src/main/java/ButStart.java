@@ -1,0 +1,3 @@
+class ButStart extends MainButton{
+
+}

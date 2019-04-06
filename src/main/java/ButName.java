@@ -1,0 +1,2 @@
+class ButName extends MainButton {
+}
