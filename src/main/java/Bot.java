@@ -226,7 +226,7 @@ public class Bot extends TelegramLongPollingBot {
     }
 
     private void getBumInfo(Message message) {
-
+        System.out.println("Asdasd");
         String string = "Это твои параметры, следи за собой" + " 👊" + "\n"
                 + "Возраст ⏱" + "  " + bum.getDays() + "\n"
                 + "Здоровье ❤️️" + "  " + bum.getHelth() + "\n"
